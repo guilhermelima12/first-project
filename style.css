@@ -11,9 +11,10 @@ body{
 }
 
 .titulos{
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     margin: auto;
     color: #191970;
+    font-size: 30px;
 }
 
 #menu{
@@ -42,7 +43,7 @@ body{
 
 #menu ul li a:hover{
     background-color:#B8CAD4;
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 
@@ -53,26 +54,56 @@ body{
 .about{
     width: 100%;
     height: 800px;
-}
-
-.bg{
     background-image: url(img/background-image.png);
     background-size: cover;
-    opacity: 0.9;
 }
 
 .about img{
     float: left;
-    margin: 50px;
+    margin-top: 15px;
+    margin-left: 25px;
     width: 200px;
     border-radius: 25% 0% 25% 0%;
     border-style: solid;
     border-color: cadetblue;
+    display: block;
+}
+
+.about img:hover{
+    width: 300px;
+    height: 350;
 }
 
 
 .about h1{
     text-align:justify;
     padding: 60px 30px 40px 30px;
+}
+
+.apresentacao{
+    text-align: justify;
+    display: block;
+    padding: 60px 30px 40px 30px;
+    position: absolute;
+    margin-top: 300px;
+    font-size: 17px;
+    color: #191970;
+}
+
+.curriculo{
+    text-align: justify;
+    display: block;
+    position: absolute;
+    margin-top: 450px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0047AB;
+    padding: 20px 30px 20px 30px;
+    margin-left: 30px;
+    border-radius: 6px;
+}
+
+.curriculo:hover{
+    background-color: rgb(137, 142, 145);
 }
 
