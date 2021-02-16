@@ -39,6 +39,7 @@ body{
     text-decoration: none;
     transition: background .4s;
     border-radius: 7px;
+
 }
 
 #menu ul li a:hover{
@@ -78,6 +79,7 @@ body{
 .about h1{
     text-align:justify;
     padding: 60px 30px 40px 30px;
+    display: block;
 }
 
 .apresentacao{
@@ -104,6 +106,24 @@ body{
 }
 
 .curriculo:hover{
-    background-color: rgb(137, 142, 145);
+    background-color:#87CEFA;
 }
+
+.titulo-right{
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    display: block;
+}
+
+.about-me{
+    width: 25%;
+    font-size: 15px;
+    text-align: justify;
+    padding: 20px 30px 20px 30px;
+    float: right;
+    color: #191970;
+}
+
 
