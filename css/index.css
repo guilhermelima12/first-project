@@ -48,6 +48,5 @@ a::before {
 }
 
 #button:hover{
-    background-color: #87CEFA;
     transform: scale(1.05);
 }
