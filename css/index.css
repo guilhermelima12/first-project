@@ -1,7 +1,7 @@
 header { 
     display: flex;
     justify-content: space-between;
-    background-color: #2F80ED;
+    background-color: #546de5;
     border-bottom: 5px solid #000;
     padding-left: 20px;
     padding-right: 20px;
@@ -41,14 +41,13 @@ a::before {
     display: inline-block;
     background-color: #fff;
     color: #000;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 18px 20px;
     box-shadow: 5px 5px 0 black;
     margin-right: 0;
+    transition: transform 100ms cubic-bezier(0.27, 1.07, 0.71, 1.46);
 }
 
 #button:hover{
     background-color: #87CEFA;
+    transform: scale(1.05);
 }
