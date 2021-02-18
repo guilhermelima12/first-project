@@ -1,3 +1,7 @@
-# Projeto 1
+# Site de Apresentação de Guilherme Lima.
 
-Irei construir um site de carta de apresentação com HTML, CSS e JavaScript. 
+
+# Tecnologias utilizadas até o momento:
+
+- HTML
+- CSS
