@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/components/section.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
 
 </head>
 
@@ -29,7 +30,7 @@
     <header class="header">
         <img src="assets/img/javascript-icon-header.png" alt="Icone do javaScript">
         <nav class="navigation">
-            <a class="action" href="#" lang="en">Skills</a>
+            <a class="action" href="#skills" lang="en">Skills</a>
             <a class="action" href="#">Projetos</a>
             <a class="action" href="#">Sobre</a>
             <a class="action" href="#">Contatos</a>
@@ -48,17 +49,46 @@
             </div>
         </div>
     </section>
-    <section class="section">
+    <section id="skills" class="section">
         <h1 class="main-title -second">Skills</h1>
-        <article class="skill-tec">
-            <img class="icon" src="assets/img/ico_html5.png" alt="">
-            <div class="right">
-                <h3 class="title">HTML</h3>
-                <progress class="progress-bar" max="100" value="60">
-                    60%
-                </progress>
-            </div>
-        </article>
+        <div class="wrapper-skill">
+            <article class="skill-tec">
+                <img class="icon" src="assets/img/ico_html5.png" alt="Logo do HTML5 em Pixel art">
+                <div class="right">
+                    <h3 class="title">HTML</h3>
+                    <progress class="progress-bar" max="100" value="70">
+                        60%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="assets/img/ico_css3.png" alt="Logo do CSS em Pixel art">
+                <div class="right">
+                    <h3 class="title">CSS</h3>
+                    <progress class="progress-bar" max="100" value="60">
+                        50%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="assets/img/ico_js.png" alt="Logo do javaScript em Pixel art">
+                <div class="right">
+                    <h3 class="title">javaScript</h3>
+                    <progress class="progress-bar" max="100" value="40">
+                        50%
+                    </progress>
+                </div>
+            </article>
+            <article class="skill-tec">
+                <img class="icon" src="assets/img/ico_react.png" alt="Logo do React em Pixel art">
+                <div class="right">
+                    <h3 class="title">React</h3>
+                    <progress class="progress-bar" max="100" value="20">
+                        20%
+                    </progress>
+                </div>
+            </article>
+        </div>
     </section>
 </body>
 
