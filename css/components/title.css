@@ -4,3 +4,10 @@ h1{
     color: #E0E0E0;
     text-shadow: 4px 4px 0 #000;
 }
+
+h2 {
+    font-family: "Press Start 2p", sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 0 #000;
+}
